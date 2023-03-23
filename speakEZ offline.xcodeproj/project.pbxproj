@@ -11,6 +11,21 @@
 		E9849D2629AFCD2100671DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D2529AFCD2100671DAE /* ContentView.swift */; };
 		E9849D2829AFCD2200671DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9849D2729AFCD2200671DAE /* Assets.xcassets */; };
 		E9849D2C29AFCD2200671DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */; };
+		E9849D3329AFCE4900671DAE /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3229AFCE4900671DAE /* Onboarding.swift */; };
+		E9849D3729AFD03700671DAE /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3629AFD03700671DAE /* CreateProfile.swift */; };
+		E9849D3A29AFDA5400671DAE /* IntroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3929AFDA5400671DAE /* IntroductionController.swift */; };
+		E9849D3C29AFDC6200671DAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3B29AFDC6200671DAE /* Extensions.swift */; };
+		E9849D3F29AFDDD800671DAE /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3E29AFDDD800671DAE /* Permissions.swift */; };
+		E9849D4229B116F200671DAE /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4129B116F200671DAE /* Moment.swift */; };
+		E9849D4529B11CBF00671DAE /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4429B11CBF00671DAE /* People.swift */; };
+		E9849D4729B1255000671DAE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4629B1255000671DAE /* Timeline.swift */; };
+		E9849D4A29B1294F00671DAE /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4929B1294F00671DAE /* Friends.swift */; };
+		E9849D4D29B14A9100671DAE /* CreateMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4C29B14A9100671DAE /* CreateMoment.swift */; };
+		E9849D5029B14D4500671DAE /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4F29B14D4500671DAE /* AppController.swift */; };
+		E9849D5229B25AAF00671DAE /* OpenedMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5129B25AAF00671DAE /* OpenedMoment.swift */; };
+		E9849D5429B2763700671DAE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5329B2763700671DAE /* Comment.swift */; };
+		E9849D5729B3DB8500671DAE /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5629B3DB8500671DAE /* Messages.swift */; };
+		E9849D5A29B3FEE100671DAE /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5929B3FEE100671DAE /* Events.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		E9849D2729AFCD2200671DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9849D2929AFCD2200671DAE /* speakEZ_offline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speakEZ_offline.entitlements; sourceTree = "<group>"; };
 		E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9849D3229AFCE4900671DAE /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		E9849D3629AFD03700671DAE /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		E9849D3929AFDA5400671DAE /* IntroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionController.swift; sourceTree = "<group>"; };
+		E9849D3B29AFDC6200671DAE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9849D3E29AFDDD800671DAE /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		E9849D4129B116F200671DAE /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		E9849D4429B11CBF00671DAE /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		E9849D4629B1255000671DAE /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		E9849D4929B1294F00671DAE /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		E9849D4C29B14A9100671DAE /* CreateMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoment.swift; sourceTree = "<group>"; };
+		E9849D4F29B14D4500671DAE /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		E9849D5129B25AAF00671DAE /* OpenedMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenedMoment.swift; sourceTree = "<group>"; };
+		E9849D5329B2763700671DAE /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E9849D5629B3DB8500671DAE /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		E9849D5929B3FEE100671DAE /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +82,17 @@
 		E9849D2229AFCD2100671DAE /* speakEZ offline */ = {
 			isa = PBXGroup;
 			children = (
+				E9849D3D29AFDDC700671DAE /* Introduction */,
+				E9849D4E29B14D3400671DAE /* App */,
+				E9849D4029B1150200671DAE /* Timeline */,
+				E9849D4829B1293E00671DAE /* Friends */,
+				E9849D4B29B14A7800671DAE /* CreateMoment */,
+				E9849D5529B3DB4700671DAE /* Messages */,
+				E9849D5829B3FEC200671DAE /* Events */,
+				E9849D4329B11CAF00671DAE /* People */,
 				E9849D2329AFCD2100671DAE /* speakEZ_offlineApp.swift */,
 				E9849D2529AFCD2100671DAE /* ContentView.swift */,
+				E9849D3B29AFDC6200671DAE /* Extensions.swift */,
 				E9849D2729AFCD2200671DAE /* Assets.xcassets */,
 				E9849D2929AFCD2200671DAE /* speakEZ_offline.entitlements */,
 				E9849D2A29AFCD2200671DAE /* Preview Content */,
@@ -67,6 +106,76 @@
 				E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9849D3D29AFDDC700671DAE /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D3929AFDA5400671DAE /* IntroductionController.swift */,
+				E9849D3229AFCE4900671DAE /* Onboarding.swift */,
+				E9849D3629AFD03700671DAE /* CreateProfile.swift */,
+				E9849D3E29AFDDD800671DAE /* Permissions.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		E9849D4029B1150200671DAE /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4629B1255000671DAE /* Timeline.swift */,
+				E9849D4129B116F200671DAE /* Moment.swift */,
+				E9849D5129B25AAF00671DAE /* OpenedMoment.swift */,
+				E9849D5329B2763700671DAE /* Comment.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		E9849D4329B11CAF00671DAE /* People */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4429B11CBF00671DAE /* People.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		E9849D4829B1293E00671DAE /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4929B1294F00671DAE /* Friends.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		E9849D4B29B14A7800671DAE /* CreateMoment */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4C29B14A9100671DAE /* CreateMoment.swift */,
+			);
+			path = CreateMoment;
+			sourceTree = "<group>";
+		};
+		E9849D4E29B14D3400671DAE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4F29B14D4500671DAE /* AppController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E9849D5529B3DB4700671DAE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D5629B3DB8500671DAE /* Messages.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		E9849D5829B3FEC200671DAE /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D5929B3FEE100671DAE /* Events.swift */,
+			);
+			path = Events;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +248,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9849D3F29AFDDD800671DAE /* Permissions.swift in Sources */,
+				E9849D5729B3DB8500671DAE /* Messages.swift in Sources */,
+				E9849D4D29B14A9100671DAE /* CreateMoment.swift in Sources */,
+				E9849D3329AFCE4900671DAE /* Onboarding.swift in Sources */,
+				E9849D3C29AFDC6200671DAE /* Extensions.swift in Sources */,
+				E9849D4A29B1294F00671DAE /* Friends.swift in Sources */,
 				E9849D2629AFCD2100671DAE /* ContentView.swift in Sources */,
+				E9849D4529B11CBF00671DAE /* People.swift in Sources */,
+				E9849D5029B14D4500671DAE /* AppController.swift in Sources */,
 				E9849D2429AFCD2100671DAE /* speakEZ_offlineApp.swift in Sources */,
+				E9849D3A29AFDA5400671DAE /* IntroductionController.swift in Sources */,
+				E9849D5429B2763700671DAE /* Comment.swift in Sources */,
+				E9849D3729AFD03700671DAE /* CreateProfile.swift in Sources */,
+				E9849D4729B1255000671DAE /* Timeline.swift in Sources */,
+				E9849D5A29B3FEE100671DAE /* Events.swift in Sources */,
+				E9849D5229B25AAF00671DAE /* OpenedMoment.swift in Sources */,
+				E9849D4229B116F200671DAE /* Moment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +401,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -287,10 +411,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carsonosullivan.speakEZ-offline";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,9 +441,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.1;
@@ -325,10 +451,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.carsonosullivan.speakEZ-offline";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
