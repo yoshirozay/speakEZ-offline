@@ -1,0 +1,59 @@
+{
+  "identifier" : "22D1B097",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6446209129",
+    "_developerTeamID" : "5VVF8T96M9",
+    "_lastSynchronizedDate" : 700503799.327672
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21271603",
+      "localizations" : [
+
+      ],
+      "name" : "Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6446257075",
+          "introductoryOffer" : {
+            "internalID" : "2269A3F0",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlock unlimited learning power!",
+              "displayName" : "StudyAI",
+              "locale" : "en_CA"
+            }
+          ],
+          "productID" : "Subscription",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "StudyAI",
+          "subscriptionGroupID" : "21271603",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
