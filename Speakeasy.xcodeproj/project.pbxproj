@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9849D2429AFCD2100671DAE /* speakEZ_offlineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D2329AFCD2100671DAE /* speakEZ_offlineApp.swift */; };
+		E9849D2629AFCD2100671DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D2529AFCD2100671DAE /* ContentView.swift */; };
+		E9849D2829AFCD2200671DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9849D2729AFCD2200671DAE /* Assets.xcassets */; };
+		E9849D2C29AFCD2200671DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */; };
+		E9849D3329AFCE4900671DAE /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3229AFCE4900671DAE /* Onboarding.swift */; };
+		E9849D3729AFD03700671DAE /* CreateProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3629AFD03700671DAE /* CreateProfile.swift */; };
+		E9849D3A29AFDA5400671DAE /* IntroductionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3929AFDA5400671DAE /* IntroductionController.swift */; };
+		E9849D3C29AFDC6200671DAE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3B29AFDC6200671DAE /* Extensions.swift */; };
+		E9849D3F29AFDDD800671DAE /* Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D3E29AFDDD800671DAE /* Permissions.swift */; };
+		E9849D4229B116F200671DAE /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4129B116F200671DAE /* Moment.swift */; };
+		E9849D4529B11CBF00671DAE /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4429B11CBF00671DAE /* People.swift */; };
+		E9849D4729B1255000671DAE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4629B1255000671DAE /* Timeline.swift */; };
+		E9849D4A29B1294F00671DAE /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4929B1294F00671DAE /* Friends.swift */; };
+		E9849D4D29B14A9100671DAE /* CreateMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4C29B14A9100671DAE /* CreateMoment.swift */; };
+		E9849D5029B14D4500671DAE /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D4F29B14D4500671DAE /* AppController.swift */; };
+		E9849D5229B25AAF00671DAE /* OpenedMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5129B25AAF00671DAE /* OpenedMoment.swift */; };
+		E9849D5429B2763700671DAE /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5329B2763700671DAE /* Comment.swift */; };
+		E9849D5729B3DB8500671DAE /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5629B3DB8500671DAE /* Messages.swift */; };
+		E9849D5A29B3FEE100671DAE /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9849D5929B3FEE100671DAE /* Events.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9849D2029AFCD2100671DAE /* speakEZ offline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "speakEZ offline.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9849D2329AFCD2100671DAE /* speakEZ_offlineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakEZ_offlineApp.swift; sourceTree = "<group>"; };
+		E9849D2529AFCD2100671DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9849D2729AFCD2200671DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9849D2929AFCD2200671DAE /* speakEZ_offline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = speakEZ_offline.entitlements; sourceTree = "<group>"; };
+		E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9849D3229AFCE4900671DAE /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		E9849D3629AFD03700671DAE /* CreateProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProfile.swift; sourceTree = "<group>"; };
+		E9849D3929AFDA5400671DAE /* IntroductionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionController.swift; sourceTree = "<group>"; };
+		E9849D3B29AFDC6200671DAE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9849D3E29AFDDD800671DAE /* Permissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permissions.swift; sourceTree = "<group>"; };
+		E9849D4129B116F200671DAE /* Moment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		E9849D4429B11CBF00671DAE /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		E9849D4629B1255000671DAE /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		E9849D4929B1294F00671DAE /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		E9849D4C29B14A9100671DAE /* CreateMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMoment.swift; sourceTree = "<group>"; };
+		E9849D4F29B14D4500671DAE /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		E9849D5129B25AAF00671DAE /* OpenedMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenedMoment.swift; sourceTree = "<group>"; };
+		E9849D5329B2763700671DAE /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E9849D5629B3DB8500671DAE /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		E9849D5929B3FEE100671DAE /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9849D1D29AFCD2100671DAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9849D1729AFCD2100671DAE = {
+			isa = PBXGroup;
+			children = (
+				E9849D2229AFCD2100671DAE /* speakEZ offline */,
+				E9849D2129AFCD2100671DAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9849D2129AFCD2100671DAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D2029AFCD2100671DAE /* speakEZ offline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9849D2229AFCD2100671DAE /* speakEZ offline */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D3D29AFDDC700671DAE /* Introduction */,
+				E9849D4E29B14D3400671DAE /* App */,
+				E9849D4029B1150200671DAE /* Timeline */,
+				E9849D4829B1293E00671DAE /* Friends */,
+				E9849D4B29B14A7800671DAE /* CreateMoment */,
+				E9849D5529B3DB4700671DAE /* Messages */,
+				E9849D5829B3FEC200671DAE /* Events */,
+				E9849D4329B11CAF00671DAE /* People */,
+				E9849D2329AFCD2100671DAE /* speakEZ_offlineApp.swift */,
+				E9849D2529AFCD2100671DAE /* ContentView.swift */,
+				E9849D3B29AFDC6200671DAE /* Extensions.swift */,
+				E9849D2729AFCD2200671DAE /* Assets.xcassets */,
+				E9849D2929AFCD2200671DAE /* speakEZ_offline.entitlements */,
+				E9849D2A29AFCD2200671DAE /* Preview Content */,
+			);
+			path = "speakEZ offline";
+			sourceTree = "<group>";
+		};
+		E9849D2A29AFCD2200671DAE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D2B29AFCD2200671DAE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9849D3D29AFDDC700671DAE /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D3929AFDA5400671DAE /* IntroductionController.swift */,
+				E9849D3229AFCE4900671DAE /* Onboarding.swift */,
+				E9849D3629AFD03700671DAE /* CreateProfile.swift */,
+				E9849D3E29AFDDD800671DAE /* Permissions.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		E9849D4029B1150200671DAE /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4629B1255000671DAE /* Timeline.swift */,
+				E9849D4129B116F200671DAE /* Moment.swift */,
+				E9849D5129B25AAF00671DAE /* OpenedMoment.swift */,
+				E9849D5329B2763700671DAE /* Comment.swift */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		E9849D4329B11CAF00671DAE /* People */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4429B11CBF00671DAE /* People.swift */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		E9849D4829B1293E00671DAE /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4929B1294F00671DAE /* Friends.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		E9849D4B29B14A7800671DAE /* CreateMoment */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4C29B14A9100671DAE /* CreateMoment.swift */,
+			);
+			path = CreateMoment;
+			sourceTree = "<group>";
+		};
+		E9849D4E29B14D3400671DAE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D4F29B14D4500671DAE /* AppController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E9849D5529B3DB4700671DAE /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D5629B3DB8500671DAE /* Messages.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		E9849D5829B3FEC200671DAE /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				E9849D5929B3FEE100671DAE /* Events.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9849D1F29AFCD2100671DAE /* speakEZ offline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9849D2F29AFCD2200671DAE /* Build configuration list for PBXNativeTarget "speakEZ offline" */;
+			buildPhases = (
+				E9849D1C29AFCD2100671DAE /* Sources */,
+				E9849D1D29AFCD2100671DAE /* Frameworks */,
+				E9849D1E29AFCD2100671DAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "speakEZ offline";
+			productName = "speakEZ offline";
+			productReference = E9849D2029AFCD2100671DAE /* speakEZ offline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9849D1829AFCD2100671DAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E9849D1F29AFCD2100671DAE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E9849D1B29AFCD2100671DAE /* Build configuration list for PBXProject "Speakeasy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9849D1729AFCD2100671DAE;
+			productRefGroup = E9849D2129AFCD2100671DAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9849D1F29AFCD2100671DAE /* speakEZ offline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9849D1E29AFCD2100671DAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9849D2C29AFCD2200671DAE /* Preview Assets.xcassets in Resources */,
+				E9849D2829AFCD2200671DAE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9849D1C29AFCD2100671DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9849D3F29AFDDD800671DAE /* Permissions.swift in Sources */,
+				E9849D5729B3DB8500671DAE /* Messages.swift in Sources */,
+				E9849D4D29B14A9100671DAE /* CreateMoment.swift in Sources */,
+				E9849D3329AFCE4900671DAE /* Onboarding.swift in Sources */,
+				E9849D3C29AFDC6200671DAE /* Extensions.swift in Sources */,
+				E9849D4A29B1294F00671DAE /* Friends.swift in Sources */,
+				E9849D2629AFCD2100671DAE /* ContentView.swift in Sources */,
+				E9849D4529B11CBF00671DAE /* People.swift in Sources */,
+				E9849D5029B14D4500671DAE /* AppController.swift in Sources */,
+				E9849D2429AFCD2100671DAE /* speakEZ_offlineApp.swift in Sources */,
+				E9849D3A29AFDA5400671DAE /* IntroductionController.swift in Sources */,
+				E9849D5429B2763700671DAE /* Comment.swift in Sources */,
+				E9849D3729AFD03700671DAE /* CreateProfile.swift in Sources */,
+				E9849D4729B1255000671DAE /* Timeline.swift in Sources */,
+				E9849D5A29B3FEE100671DAE /* Events.swift in Sources */,
+				E9849D5229B25AAF00671DAE /* OpenedMoment.swift in Sources */,
+				E9849D4229B116F200671DAE /* Moment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9849D2D29AFCD2200671DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9849D2E29AFCD2200671DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E9849D3029AFCD2200671DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "speakEZ offline/speakEZ_offline.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speakEZ offline/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VVF8T96M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carsonosullivan.speakEZ-offline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9849D3129AFCD2200671DAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "speakEZ offline/speakEZ_offline.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"speakEZ offline/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VVF8T96M9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carsonosullivan.speakEZ-offline";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9849D1B29AFCD2100671DAE /* Build configuration list for PBXProject "Speakeasy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9849D2D29AFCD2200671DAE /* Debug */,
+				E9849D2E29AFCD2200671DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9849D2F29AFCD2200671DAE /* Build configuration list for PBXNativeTarget "speakEZ offline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9849D3029AFCD2200671DAE /* Debug */,
+				E9849D3129AFCD2200671DAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9849D1829AFCD2100671DAE /* Project object */;
+}
